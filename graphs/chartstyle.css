@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Jost:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.Sec{
+    background:black;
+    height: 95vh;
+    transform: translateY(-37px);
+}
+.left{
+    background:#81c599;
+    width:50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: black;
+    font-size: 3em;
+    font-family: "Jost";
+    font-style: italic;
+}
+
+.head1{
+    position: relative;
+    left: 3em;
+    top:7em;
+}
+
+.head2{
+    position: relative;
+    left: 2em;
+    top:7em;
+}
+
+.head3{
+    position: relative;
+    left: 3em;
+    top:7em;
+}
+
+
+.temperaturegraph{
+    width:50%;
+    height:100%;
+    transform: translate(95%, -80%);
+   
+}
+.right{
+    background: #81c599;
+    width:50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(100%);
+}
+.humiditygraph{
+    width:50%;
+    height:100%;
+    transform: translate(5%, -80%);
+}
+
+
+
+.soilgraph{
+    width:50%;
+    height:100%;
+    transform: translate(95%, -80%);
+   
+}
+
+#container {
+    min-width: 310px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+iframe{
+    width: 450px;
+    height: 260px;
+    border: 1px solid wheat;
+}
+
+.temp{
+    transform: translate(230px,60px);
+}
+
+.humid{
+    transform: translate(100px,60px);
+}
+
+.soil{
+    transform: translate(230px,60px);
+}
