@@ -61,7 +61,7 @@ h1{
 
 iframe{
     position: fixed;
-    width: 425px;
+    width: 450px;
     height: 260px;
     border: 1px solid wheat;
 }
@@ -111,8 +111,9 @@ iframe{
     .head3{
         transform: translate(-48px, -221px);   
     }
+
     iframe{
         width:425px;
-        height: 320px;
+        height: 380px;
     }
 }
