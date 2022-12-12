@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "graphology": "^0.25.1",
-    "sigma": "^2.4.0"
-  }
-}
