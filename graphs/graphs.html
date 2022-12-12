@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="chartstyle.css" rel="stylesheet">
+
+    <title>Ananlysis</title>
+</head>
+<body>
+    <section class="Sec Sec1">
+    <div class="left">
+        <h1 class="head1">Temperature-Time Graph</h1>
+    </div>
+    <div class="temperaturegraph">
+        <iframe class="temp" src="https://thingspeak.com/channels/1909818/charts/1?bgcolor=%23AOE19D&color=%23499869&dynamic=true&results=60&type=line&xaxis=Date&yaxis=Temperature"></iframe>
+    </div>
+    
+</section>
+
+<section class="Sec">
+    <div class="right">
+        <h1 class="head2">Humidity-Time Graph</h1>
+    </div>
+    <div class="humiditygraph">
+        <iframe class="humid" src="https://thingspeak.com/channels/1909818/charts/2?bgcolor=%23ffffff&color=%23499869&dynamic=true&results=60&type=line"></iframe>
+
+    </div>
+</section>
+
+<section class="Sec">
+    <div class="left">
+        <h1 class="head3">Soil-Moisture Graph</h1>
+    </div>
+    <div class="soilgraph">
+        <iframe class="soil" src="https://thingspeak.com/channels/1909818/charts/3?bgcolor=%23ffffff&color=%23499869&dynamic=true&results=60&type=line"></iframe>
+
+    </div>
+
+</section>
+
+<footer style="height: 15vh; background-color: black"></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/data.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>     
+<script type="text/javascript" src="Chart.js"></script>
+
+
+
+</body>
+</html>

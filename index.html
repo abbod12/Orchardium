@@ -1,0 +1,173 @@
+  <!DOCTYPE >
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Orchardium</title>
+    <!-- Load Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/app.js"></script> 
+
+  </head>
+  <body>
+    <!-- HTML Follows BEM naming conventions 
+    IDs are only used for sections to connect menu achors to sections -->
+    <header class="page__header">
+      
+      <nav class="navbar__menu"data-aos="fade-down">
+        <!-- Navigation starts as empty UL that will be populated with JS -->
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">
+          <a class="anchorlogo"href="#cover">Orchardium</a>
+        </label>
+        <ul class="unordered">
+          <li class="list"><a class="anchor" href="#cover">Home</a></li>
+          <li class="list"><a class="anchor" href="#services">Services</a></li>
+          <li class="list"><a class="anchor" href="graphs/graphs.html" target="_blank">Analysis</a></li>
+          <li class="list"><a class="anchor" href="#contact-us">Contact</a></li>
+        </ul>
+      </nav>
+
+    </header>
+    <main>
+      
+      <header class="cover" id="cover">
+         <<img class="img"src="photos/dark.jpg" alt="cover image">
+          <div class="imgtext">
+            <<h1 class="welcome" data-aos="fade-up">Exploring Hope</h1>>
+          </div>
+      </header>
+      
+      
+    
+    <section class="services"  id="services">
+      <div class="skewed" data-aos="fade-right" data-aos delay="300">
+        <div class="text">
+            <small class="small">
+              Disasters, Global Warming, Famine....
+            </small>
+            <h1 class="bigger">
+              The Climate Must Change
+            </h1>
+            
+          </div>
+
+          <div class="image">
+            <div>
+              <img src="photos/fires.jpg" alt="IOT System" class="sec">
+            </div>
+          </div>
+        </div>
+          
+          <div class="skewed skewed-left" data-aos="fade-left">
+            <div class="image image2">
+              <div >
+                <img src="photos/wheatcover2.jpg" alt="E-technology" class="sec sec2">
+              </div>
+            </div>
+
+            <div class="text">
+              <small class="small">Health, Food, Freedom...</small>
+              <h1 class="bigger">And You Are The Solution</h1>
+            </div>
+          </div>
+
+    </section>
+
+  
+      
+      <section class="cardsec" id="contact-us">
+        <div class="cards" data-aos="fade-right" style="transition: 0.7s;" >
+          <div class="imgBx">
+              <img src="photos/Omar Desokey.jpg">
+          </div>
+          <div class="content">
+            <div class="details">
+              <h2>Omar Desokey<br><span>Robotics Engineer</span></h2>
+              <div class="actionbtn">
+                <button class="butn"><a class="anc facebook" href="http://facebook.com"><i class="fa-brands fa-facebook"></i></a></button>
+                <button class="butn"><a class="anc gmail" href="http://gmail.com"><i class="fa-regular fa-envelope"></i></a></button>
+                <button class="butn"><a class="anc linkedin" href="http://linkedin.com"><i class="fa-brands fa-linkedin"></i></a></button>
+                <button class="butn"><a class="anc github" href="http://github.com"><i class="fa-brands fa-github"></i></a></button>
+              </div>
+            </div>
+            
+          </div>
+      </div>
+      <div class="cards" data-aos="fade-up" style="transition: 0.7s;"> 
+        <div class="imgBx">
+            <img src="photos/Zatoun.jpg">
+        </div>
+        <div class="content">
+          <div class="details">
+            <h2>Abdelrahman Zaitoun<br><span>Web Developer</span></h2>
+            <div class="actionbtn">
+              <button class="butn"><a class="anc facebook" href="http://facebook.com"><i class="fa-brands fa-facebook"></i></a></button>
+              <button class="butn"><a class="anc gmail" href="http://gmail.com"><i class="fa-regular fa-envelope"></i></a></button>
+              <button class="butn"><a class="anc linkedin" href="http://linkedin.com"><i class="fa-brands fa-linkedin"></i></a></button>
+              <button class="butn"><a class="anc github" href="http://github.com"><i class="fa-brands fa-github"></i></a></button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="cards" data-aos="fade-left" style="transition: 0.7s;">
+       <div class="imgBx">
+          <img src="photos/Omar Walid.jpg">
+      </div>
+      <div class="content">
+        <div class="details">
+          <h2>Omar Walid<br><span>Creative Writer</span></h2>
+          <div class="actionbtn">
+            <button class="butn"><a class="anc facebook" href="http://facebook.com"><i class="fa-brands fa-facebook"></i></a></button>
+            <button class="butn"><a class="anc gmail" href="http://gmail.com"><i class="fa-regular fa-envelope"></i></a></button>
+            <button class="butn"><a class="anc linkedin" href="http://linkedin.com"><i class="fa-brands fa-linkedin"></i></a></button>
+            <button class="butn"><a class="anc github" href="http://github.com"><i class="fa-brands fa-github"></i></a></button>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+      </section>
+      
+
+    
+     
+      <!-- Each Section has an ID (used for the anchor) and 
+      a data attribute that will populate the li node.
+      Adding more sections will automatically populate nav.-->
+    
+      <button class="toTop" onclick="topFunction()">
+        <i class="fa-solid fa-angles-up"></i>
+    -->
+      </main>
+    
+
+    <div class="scrolltotop" id="scrolltop"></div>
+    <script src="js/app.js"></script> 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration:1000,
+      once: false,
+      mirror: false,
+    });
+  </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+
+    </script>
+  </body>
+  </html>
+  
