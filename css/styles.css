@@ -70,12 +70,14 @@ main{
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: grey }
+  50% { border-color: #68B984 }
 }
 
 
 @media(max-width: 790px){
-    
+    .img{
+        filter: blur(2px);
+    }
     .imgtext{
         width: 70%;
         text-align: center;    
