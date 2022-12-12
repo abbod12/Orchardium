@@ -111,4 +111,8 @@ iframe{
     .head3{
         transform: translate(-48px, -221px);   
     }
+    iframe{
+        width:225px;
+        height: 280px;
+    }
 }
