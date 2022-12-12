@@ -478,7 +478,7 @@ a.active, .linkActive, .anchor:hover{
         font-family: "Inter";
     }
     ul{
-        position: fixed;
+        position: absolute;
         width: 100vw;
         height: 60vh;
         background: #52705d;
