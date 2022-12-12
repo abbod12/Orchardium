@@ -44,8 +44,8 @@ main{
 .imgtext{
     background-color: #68686585;
     color:rgba(255, 255, 255, 0.978);
+    border: 3px solid whitesmoke;
     font-weight: bold;
-    border: 3px solid green;
     position:absolute;
     top: 50%;
     left: 25%;
@@ -70,7 +70,7 @@ main{
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: #68B984 }
+  50% { border-color:#68B984 }
 }
 
 
@@ -480,10 +480,10 @@ a.active, .linkActive, .anchor:hover{
     ul{
         position: fixed;
         width: 100vw;
-        height: 100vh;
+        height: 60vh;
         background: #52705d;
         top: 80px;
-        left: -100%;
+        left: -110%;
         text-align: center;
         transition: all .5s;
         border-radius: 1px;

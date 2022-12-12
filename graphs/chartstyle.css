@@ -14,7 +14,7 @@ body{
     transform: translateY(-37px);
 }
 .left{
-    background:#81c599;
+    background:#68B984;
     width:50%;
     height: 100%;
     
@@ -52,7 +52,7 @@ h1{
 
 
 .right{
-    background-color:#81c599 ;
+    background-color:#68B984;
     width:50%;
     height: 100%;
     transform: translate(790px, -1px);
@@ -61,7 +61,7 @@ h1{
 
 iframe{
     position: fixed;
-    width: 425px;
+    width: 450px;
     height: 260px;
     border: 1px solid wheat;
 }
@@ -81,16 +81,16 @@ iframe{
 @media(max-width:790px){
     
     .temp{
-        transform: translate(-59px,18px);
+        transform: translate(15px,18px);
     }   
     
 
     .humid{
-       transform: translate(-56px,29px);
+       transform: translate(15px,29px);
     }
 
     .soil{
-        transform: translate(-55px,19px);
+        transform: translate(15px,19px);
     }
     .left{
         width:100%;
