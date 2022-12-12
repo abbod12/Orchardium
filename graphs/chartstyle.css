@@ -8,6 +8,7 @@ body{
 }
 
 .Sec{
+    position: relative;
     background:black;
     height: 95vh;
     transform: translateY(-37px);
@@ -16,57 +17,42 @@ body{
     background:#81c599;
     width:50%;
     height: 100%;
-    justify-content: center;
-    align-items: center;
+    
 }
 h1{
     color: black;
-    font-size: 3em;
+    font-size: 3.4em;
     font-family: "Jost";
     font-style: italic;
 }
 
 .head1{
     position: relative;
-    left: 3em;
-    top:7em;
+    left: 1em;
+    top: 5.7em;
 }
-
-.head2{
-    position: relative;
-    left: 2em;
-    top:7em;
-}
-
-.head3{
-    position: relative;
-    left: 3em;
-    top:7em;
-}
-
 
 .temperaturegraph{
     width:50%;
     height:100%;
-    transform: translate(95%, -80%);
-   
+    transform: translate(90%, -80%);  
 }
-.right{
-    background: #81c599;
-    width:50%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    transform: translateX(100%);
+
+.head2{
+    position: relative;
+    transform: translate(50px, 250px);
 }
 .humiditygraph{
     width:50%;
     height:100%;
-    transform: translate(5%, -80%);
+    transform: translate(50px, -80px);
 }
 
-
-
+.head3{
+    position: relative;
+    left: 2em;
+    top: 5.5em;
+}
 .soilgraph{
     width:50%;
     height:100%;
@@ -74,13 +60,17 @@ h1{
    
 }
 
-#container {
-    min-width: 310px;
-    height: 400px;
-    margin: 0 auto;
+
+.right{
+    background-color:#81c599 ;
+    width:50%;
+    height: 100%;
+    transform: translate(790px, -1px);
 }
 
+
 iframe{
+    position: fixed;
     width: 450px;
     height: 260px;
     border: 1px solid wheat;
@@ -91,9 +81,36 @@ iframe{
 }
 
 .humid{
-    transform: translate(100px,60px);
+    transform: translate(120px,-382px);
 }
 
 .soil{
     transform: translate(230px,60px);
+}
+
+@media(max-width:790px){
+    .temp{
+        transform: translate(-199px,675px);
+    }   
+    
+
+    .humid{
+       transform: translate(106px,1123px);
+    }
+
+    .soil{
+        transform: translate(-203px,1119px);
+    }
+    .left{
+        width:100%;
+        height:50%
+    }
+    .right{
+        width:100%;
+        height:50%;
+    }
+    .head1{
+        left: 1em;
+        top: 2em;
+    }
 }
